@@ -2,16 +2,18 @@
 
 **Takeaway:** A panicked call about a jailed relative, plus a demand for secret cash, is a scam. Hang up and call your family yourself.
 
-**Length:** 184 spoken words, voice 65.5 s, video 66.9 s.
+**Length:** 184 spoken words, voice 65.6 s, video about 67 s.
+
+**Voice:** eleven_v4, stability 0.4, one emotion tag per beat (listed in `voice.json`). Version 1 used a single calm tag on every beat and came out flat; the owner asked for the emotion back.
 
 ## Voiceover (as generated, `voice.json`)
 1. A federal judge ordered one man to pay back more than eight hundred sixty-seven thousand dollars to seniors who got scammed.
 2. It starts with a phone call. The voice on the line says it's their grandchild, or sometimes a lawyer.
-3. Their loved one has been arrested after a car accident and needs bail money. They're also told there's a gag order, so they can't tell anyone.
+3. Their loved one has been arrested after a car accident and needs bail money. They're also told there's a gag order... so they can't tell anyone.
 4. They pack thousands of dollars in cash and ship it to an address the callers give them.
 5. One man collecting that cash comes from New York City. He travels to pick it up in places like Rhode Island. In January twenty twenty-one, police in New Haven, Connecticut start getting reports from other states, and the FBI joins in.
-6. He pleads guilty to mail fraud and conspiracy. In February twenty twenty-four, a federal judge sentences him to thirty months in federal prison.
-7. If a caller says a relative is in jail and needs cash right now, and asks you to keep it quiet, hang up. Call your family on a number you already know. Follow for Caught number two.
+6. He pleads guilty to mail fraud and conspiracy. In February twenty twenty-four, a federal judge sentences him to... thirty months in federal prison.
+7. If a caller says a relative is in jail and needs cash right now, and asks you to keep it quiet... hang up. Call your family on a number you already know. Follow for Caught number two.
 
 ## On screen
 - Header: CAUGHT #1 · Real case · Rhode Island

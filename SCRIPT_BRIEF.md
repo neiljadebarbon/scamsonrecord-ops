@@ -12,7 +12,7 @@ Read first: `RULES.md`, `persona/NARRATOR.md`, `GAMEPLAN.md`, and `episodes/Caug
 
 ## Files per episode
 - `source/source.md`: the facts and where they come from.
-- `script/voice.json`: `[[tag, text, pause_seconds], ...]`, one entry per beat, numbers spelled as spoken. Tag: `[calm, serious, storytelling] `. Pauses 0.6 to 0.9, uneven, last one 0.
+- `script/voice.json`: `[[tag, text, pause_seconds], ...]`, one entry per beat, numbers spelled as spoken. Tags: one emotion tag per beat, as listed in RULES.md (Voice). Pauses 0.6 to 0.9, uneven, last one 0.
 - `script/captions.json`: per beat, the chunks shown on screen: `{"display": "In January 2021,", "spoken": "In January twenty twenty-one,"}`. The spoken chunks joined must equal the beat's text in `voice.json` word for word.
 - `script/script.md`: title, takeaway, the voiceover, every on-screen text, word count, the fact-check table with verdict, posting copy.
 - `audio/<name>_voice.mp3`, `.timeline.json`, `_words.json`: from `tools/voice/gen_vo.py` and `tools/voice/align.py`.

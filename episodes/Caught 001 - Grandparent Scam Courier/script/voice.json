@@ -1,37 +1,37 @@
 [
  [
-  "[calm, serious, storytelling] ",
+  "[grave, serious] ",
   "A federal judge ordered one man to pay back more than eight hundred sixty-seven thousand dollars to seniors who got scammed.",
   0.8
  ],
  [
-  "[calm, serious, storytelling] ",
+  "[low, suspenseful] ",
   "It starts with a phone call. The voice on the line says it's their grandchild, or sometimes a lawyer.",
   0.7
  ],
  [
-  "[calm, serious, storytelling] ",
-  "Their loved one has been arrested after a car accident and needs bail money. They're also told there's a gag order, so they can't tell anyone.",
+  "[tense, worried] ",
+  "Their loved one has been arrested after a car accident and needs bail money. They're also told there's a gag order... so they can't tell anyone.",
   0.9
  ],
  [
-  "[calm, serious, storytelling] ",
+  "[hushed, ominous] ",
   "They pack thousands of dollars in cash and ship it to an address the callers give them.",
   0.6
  ],
  [
-  "[calm, serious, storytelling] ",
+  "[intrigued, building tension] ",
   "One man collecting that cash comes from New York City. He travels to pick it up in places like Rhode Island. In January twenty twenty-one, police in New Haven, Connecticut start getting reports from other states, and the FBI joins in.",
   0.8
  ],
  [
-  "[calm, serious, storytelling] ",
-  "He pleads guilty to mail fraud and conspiracy. In February twenty twenty-four, a federal judge sentences him to thirty months in federal prison.",
+  "[firm, matter-of-fact] ",
+  "He pleads guilty to mail fraud and conspiracy. In February twenty twenty-four, a federal judge sentences him to... thirty months in federal prison.",
   0.7
  ],
  [
-  "[calm, serious, storytelling] ",
-  "If a caller says a relative is in jail and needs cash right now, and asks you to keep it quiet, hang up. Call your family on a number you already know. Follow for Caught number two.",
+  "[warm, direct, protective] ",
+  "If a caller says a relative is in jail and needs cash right now, and asks you to keep it quiet... hang up. Call your family on a number you already know. Follow for Caught number two.",
   0.0
  ]
 ]

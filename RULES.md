@@ -33,9 +33,17 @@ Caught #1 is why this matters. The first script put "38-year-old" on events from
 - Vary paragraph openers. Never two in a row starting the same way.
 
 ## Voice
-- ElevenLabs voice `7mN3HOhMedH0rcubaqVy`, model `eleven_v4`, stability 0.5, similarity 0.8.
-- One steady delivery tag on every paragraph: `[calm, serious, storytelling] `. Don't switch moods between paragraphs; it causes sing-song.
-- Pace from the script, not the API: pauses of 0.6 to 0.9 s between paragraphs (uneven), then a 5% slowdown (atempo 0.95). `tools/voice/gen_vo.py` does it and retakes any paragraph with a stutter, a doubled word or a pace outside 115 to 235 wpm.
+- ElevenLabs voice `7mN3HOhMedH0rcubaqVy`, model `eleven_v4`, stability 0.4 (env `STABILITY`), similarity 0.8.
+- This is a true-crime story channel, so the voice acts. Each beat gets its own emotion tag that fits what's happening (set on Caught #1):
+    - Hook: `[grave, serious] `
+    - Setup: `[low, suspenseful] `
+    - Trust: `[tense, worried] `
+    - The ask: `[hushed, ominous] `
+    - The fall: `[intrigued, building tension] `
+    - Ending: `[firm, matter-of-fact] `
+    - Red flags: `[warm, direct, protective] `
+- Dramatic pauses with "..." inside a line (before the sentence length, before the gag order's consequence, before "hang up"). Captions don't show them.
+- Pauses of 0.6 to 0.9 s between paragraphs (uneven), then a 5% slowdown (atempo 0.95). `tools/voice/gen_vo.py` does it and retakes any paragraph with a stutter, a doubled word or a pace outside 115 to 235 wpm.
 - Spell numbers the way they're said in `voice.json`: "eight hundred sixty-seven thousand dollars", "twenty twenty-one". Captions show digits.
 - Key: environment variable `XI` or `ELEVENLABS_API_KEY`, or a local `.env`. Never in a committed file. This repo is public.
 

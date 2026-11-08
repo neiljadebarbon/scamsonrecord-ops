@@ -19,7 +19,9 @@ def key():
     raise RuntimeError('no ElevenLabs key: set XI or ELEVENLABS_API_KEY')
 
 
-def tts(text, out, stability=0.5, similarity=0.8):
+def tts(text, out, stability=None, similarity=0.8):
+    if stability is None:
+        stability = float(os.environ.get('STABILITY', '0.4'))
     body = json.dumps({'text': text, 'model_id': MODEL,
                        'voice_settings': {'stability': stability, 'similarity_boost': similarity}}).encode()
     url = 'https://api.elevenlabs.io/v1/text-to-speech/%s?output_format=mp3_44100_192' % VOICE
