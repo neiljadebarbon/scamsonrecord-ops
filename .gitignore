@@ -1,0 +1,9 @@
+.env
+*.env
+secrets/
+__pycache__/
+*.pyc
+*.wav
+*.trim.wav
+/tmp/
+stills/

@@ -1,0 +1,185 @@
+[
+ {
+  "id": "hook",
+  "chunks": [
+   {
+    "display": "A federal judge ordered one man",
+    "spoken": "A federal judge ordered one man"
+   },
+   {
+    "display": "to pay back more than $867,149",
+    "spoken": "to pay back more than eight hundred sixty-seven thousand dollars"
+   },
+   {
+    "display": "to seniors who got scammed.",
+    "spoken": "to seniors who got scammed."
+   }
+  ]
+ },
+ {
+  "id": "setup",
+  "chunks": [
+   {
+    "display": "It starts with a phone call.",
+    "spoken": "It starts with a phone call."
+   },
+   {
+    "display": "The voice on the line says",
+    "spoken": "The voice on the line says"
+   },
+   {
+    "display": "it's their grandchild,",
+    "spoken": "it's their grandchild,"
+   },
+   {
+    "display": "or sometimes a lawyer.",
+    "spoken": "or sometimes a lawyer."
+   }
+  ]
+ },
+ {
+  "id": "trust",
+  "chunks": [
+   {
+    "display": "Their loved one has been arrested",
+    "spoken": "Their loved one has been arrested"
+   },
+   {
+    "display": "after a car accident",
+    "spoken": "after a car accident"
+   },
+   {
+    "display": "and needs bail money.",
+    "spoken": "and needs bail money."
+   },
+   {
+    "display": "They're also told there's a gag order,",
+    "spoken": "They're also told there's a gag order,"
+   },
+   {
+    "display": "so they can't tell anyone.",
+    "spoken": "so they can't tell anyone."
+   }
+  ]
+ },
+ {
+  "id": "ask",
+  "chunks": [
+   {
+    "display": "They pack thousands of dollars",
+    "spoken": "They pack thousands of dollars"
+   },
+   {
+    "display": "in cash",
+    "spoken": "in cash"
+   },
+   {
+    "display": "and ship it to an address",
+    "spoken": "and ship it to an address"
+   },
+   {
+    "display": "the callers give them.",
+    "spoken": "the callers give them."
+   }
+  ]
+ },
+ {
+  "id": "fall",
+  "chunks": [
+   {
+    "display": "One man collecting that cash",
+    "spoken": "One man collecting that cash"
+   },
+   {
+    "display": "comes from New York City.",
+    "spoken": "comes from New York City."
+   },
+   {
+    "display": "He travels to pick it up",
+    "spoken": "He travels to pick it up"
+   },
+   {
+    "display": "in places like Rhode Island.",
+    "spoken": "in places like Rhode Island."
+   },
+   {
+    "display": "In January 2021,",
+    "spoken": "In January twenty twenty-one,"
+   },
+   {
+    "display": "police in New Haven, Connecticut",
+    "spoken": "police in New Haven, Connecticut"
+   },
+   {
+    "display": "start getting reports from other states,",
+    "spoken": "start getting reports from other states,"
+   },
+   {
+    "display": "and the FBI joins in.",
+    "spoken": "and the FBI joins in."
+   }
+  ]
+ },
+ {
+  "id": "ending",
+  "chunks": [
+   {
+    "display": "He pleads guilty",
+    "spoken": "He pleads guilty"
+   },
+   {
+    "display": "to mail fraud and conspiracy.",
+    "spoken": "to mail fraud and conspiracy."
+   },
+   {
+    "display": "In February 2024,",
+    "spoken": "In February twenty twenty-four,"
+   },
+   {
+    "display": "a federal judge sentences him",
+    "spoken": "a federal judge sentences him"
+   },
+   {
+    "display": "to 30 months",
+    "spoken": "to thirty months"
+   },
+   {
+    "display": "in federal prison.",
+    "spoken": "in federal prison."
+   }
+  ]
+ },
+ {
+  "id": "flags",
+  "chunks": [
+   {
+    "display": "If a caller says a relative is in jail",
+    "spoken": "If a caller says a relative is in jail"
+   },
+   {
+    "display": "and needs cash right now,",
+    "spoken": "and needs cash right now,"
+   },
+   {
+    "display": "and asks you to keep it quiet,",
+    "spoken": "and asks you to keep it quiet,"
+   },
+   {
+    "display": "hang up.",
+    "spoken": "hang up."
+   },
+   {
+    "display": "Call your family",
+    "spoken": "Call your family"
+   },
+   {
+    "display": "on a number you already know.",
+    "spoken": "on a number you already know."
+   },
+   {
+    "display": "Follow for Caught #2.",
+    "spoken": "Follow for Caught number two."
+   }
+  ]
+ }
+]
