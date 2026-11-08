@@ -1,6 +1,6 @@
 # Scams on Record: channel gameplan
 
-One true scam case a day, faceless, about 65 to 75 seconds, built only from official records. Every story is real and the source is on screen. The working copy of this plan also lives in Claude Docs as "Faceless Scam Story Channel Gameplan".
+One true scam case a day, faceless, about 90 seconds for Caught episodes, built only from official records. Every story is real and the source is on screen. The working copy of this plan also lives in Claude Docs as "Faceless Scam Story Channel Gameplan".
 
 ## Series
 Numbered series so viewers binge the back catalog.

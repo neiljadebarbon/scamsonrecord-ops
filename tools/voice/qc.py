@@ -49,3 +49,24 @@ def repeated_word(f, text):
         if hw[i] == hw[i - 1] and hw[i] not in doubled_in_script and len(hw[i]) > 2:
             return 'repeat word ' + hw[i]
     return None
+
+
+def voiced_ratio(f):
+    """Share of the loud frames that carry pitch. Normal narration runs about 0.6 to 0.9; a whispered take drops under about 0.55."""
+    import numpy as np, parselmouth
+    w = f + '.16k.wav'
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', f, '-ac', '1', '-ar', '16000', w], check=True)
+    s = parselmouth.Sound(w)
+    pitch = s.to_pitch(time_step=0.01, pitch_floor=70, pitch_ceiling=400)
+    f0 = pitch.selected_array['frequency']
+    inten = s.to_intensity(time_step=0.01)
+    iv = np.nan_to_num(np.array([inten.get_value(t) for t in pitch.xs()]), nan=0)
+    speech = iv > (iv.max() - 25)
+    os.remove(w)
+    return float((f0[speech] > 0).mean()) if speech.any() else 0.0
+
+
+def whisper(f, limit=0.58):
+    """Reason string if the take sounds whispered (owner rule: no whispering), else None."""
+    r = voiced_ratio(f)
+    return 'whisper (voiced %.2f)' % r if r < limit else None

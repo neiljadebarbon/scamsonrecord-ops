@@ -1,0 +1,255 @@
+[
+ {
+  "id": "hook",
+  "chunks": [
+   {
+    "display": "In March 2024,",
+    "spoken": "In March twenty twenty-four,"
+   },
+   {
+    "display": "police in Illinois arrest a man",
+    "spoken": "police in Illinois arrest a man"
+   },
+   {
+    "display": "carrying 16 bars of gold,",
+    "spoken": "carrying sixteen bars of gold,"
+   },
+   {
+    "display": "worth more than $1 million.",
+    "spoken": "worth more than a million dollars."
+   },
+   {
+    "display": "Days earlier, that gold",
+    "spoken": "Days earlier, that gold"
+   },
+   {
+    "display": "belonged to scam victims.",
+    "spoken": "belonged to scam victims."
+   }
+  ]
+ },
+ {
+  "id": "setup",
+  "chunks": [
+   {
+    "display": "It starts on a home computer.",
+    "spoken": "It starts on a home computer."
+   },
+   {
+    "display": "Malware puts a phone number",
+    "spoken": "Malware puts a phone number"
+   },
+   {
+    "display": "on the screen.",
+    "spoken": "on the screen."
+   },
+   {
+    "display": "The victim calls the number.",
+    "spoken": "The victim calls the number."
+   }
+  ]
+ },
+ {
+  "id": "trust",
+  "chunks": [
+   {
+    "display": "The people on the line pose as",
+    "spoken": "The people on the line pose as"
+   },
+   {
+    "display": "Microsoft employees,",
+    "spoken": "Microsoft employees,"
+   },
+   {
+    "display": "bank officials,",
+    "spoken": "bank officials,"
+   },
+   {
+    "display": "government employees",
+    "spoken": "government employees"
+   },
+   {
+    "display": "and law enforcement.",
+    "spoken": "and law enforcement."
+   },
+   {
+    "display": "They say your identity",
+    "spoken": "They say your identity"
+   },
+   {
+    "display": "has been compromised,",
+    "spoken": "has been compromised,"
+   },
+   {
+    "display": "and your money isn't safe in the bank.",
+    "spoken": "and your money isn't safe in the bank."
+   }
+  ]
+ },
+ {
+  "id": "ask",
+  "chunks": [
+   {
+    "display": "So the victims, ages 61 to 80,",
+    "spoken": "So the victims, ages sixty-one to eighty,"
+   },
+   {
+    "display": "cash out bank and retirement accounts",
+    "spoken": "cash out bank and retirement accounts"
+   },
+   {
+    "display": "to buy gold.",
+    "spoken": "to buy gold."
+   },
+   {
+    "display": "When it arrives, they're told",
+    "spoken": "When it arrives, they're told"
+   },
+   {
+    "display": "to hand it over for safekeeping.",
+    "spoken": "to hand it over for safekeeping."
+   },
+   {
+    "display": "Some are told to address the box",
+    "spoken": "Some are told to address the box"
+   },
+   {
+    "display": "to the Department of Justice.",
+    "spoken": "to the Department of Justice."
+   }
+  ]
+ },
+ {
+  "id": "courier",
+  "chunks": [
+   {
+    "display": "One of the people collecting",
+    "spoken": "One of the people collecting"
+   },
+   {
+    "display": "is a courier from Illinois,",
+    "spoken": "is a courier from Illinois,"
+   },
+   {
+    "display": "carrying gold and cash",
+    "spoken": "carrying gold and cash"
+   },
+   {
+    "display": "across state lines.",
+    "spoken": "across state lines."
+   }
+  ]
+ },
+ {
+  "id": "run",
+  "chunks": [
+   {
+    "display": "On March 25th and 26th,",
+    "spoken": "On March twenty-fifth and twenty-sixth,"
+   },
+   {
+    "display": "he picks up 16 one-kilogram gold bars",
+    "spoken": "he picks up sixteen one-kilogram gold bars"
+   },
+   {
+    "display": "from victims in Littleton, Colorado,",
+    "spoken": "from victims in Littleton, Colorado,"
+   },
+   {
+    "display": "and Kansas City, Missouri.",
+    "spoken": "and Kansas City, Missouri."
+   }
+  ]
+ },
+ {
+  "id": "catch",
+  "chunks": [
+   {
+    "display": "The next day, the run ends.",
+    "spoken": "The next day, the run ends."
+   },
+   {
+    "display": "A sheriff's deputy",
+    "spoken": "A sheriff's deputy"
+   },
+   {
+    "display": "and a state highway patrol sergeant",
+    "spoken": "and a state highway patrol sergeant"
+   },
+   {
+    "display": "arrest him in Illinois,",
+    "spoken": "arrest him in Illinois,"
+   },
+   {
+    "display": "gold bars still with him.",
+    "spoken": "gold bars still with him."
+   }
+  ]
+ },
+ {
+  "id": "ending",
+  "chunks": [
+   {
+    "display": "In May 2026,",
+    "spoken": "In May twenty twenty-six,"
+   },
+   {
+    "display": "a federal judge in Kansas City",
+    "spoken": "a federal judge in Kansas City"
+   },
+   {
+    "display": "sentences him to 15\u00bd years",
+    "spoken": "sentences him to fifteen and a half years"
+   },
+   {
+    "display": "in prison, without parole.",
+    "spoken": "in prison, without parole."
+   },
+   {
+    "display": "Twelve identified victims",
+    "spoken": "Twelve identified victims"
+   },
+   {
+    "display": "lost more than $6 million.",
+    "spoken": "lost more than six million dollars."
+   }
+  ]
+ },
+ {
+  "id": "flags",
+  "chunks": [
+   {
+    "display": "No real company or agency",
+    "spoken": "No real company or agency"
+   },
+   {
+    "display": "will ever ask you to buy gold",
+    "spoken": "will ever ask you to buy gold"
+   },
+   {
+    "display": "and hand it to a courier.",
+    "spoken": "and hand it to a courier."
+   },
+   {
+    "display": "If a number pops up on your screen,",
+    "spoken": "If a number pops up on your screen,"
+   },
+   {
+    "display": "don't call it.",
+    "spoken": "don't call it."
+   },
+   {
+    "display": "Call your bank",
+    "spoken": "Call your bank"
+   },
+   {
+    "display": "on the number from your card.",
+    "spoken": "on the number from your card."
+   },
+   {
+    "display": "Follow for Caught #3.",
+    "spoken": "Follow for Caught number three."
+   }
+  ]
+ }
+]

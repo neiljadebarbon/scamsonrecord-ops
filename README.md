@@ -10,9 +10,9 @@ The playbook and production kit for **Scams on Record**, a faceless short-video 
 - `RULES.md`: the laws. Independent fact-check, no AI melody, accuracy rules, voice settings, video spec, posting checklist.
 - `persona/NARRATOR.md`: who the narrator is and what never to invent.
 - `SCRIPT_BRIEF.md`: how to write one episode, file formats, what to deliver.
-- `tools/voice/`: ElevenLabs voiceover generator with stutter and pace checks (`gen_vo.py`), word alignment for captions (`align.py`).
-- `tools/video/`: the motion engine (`engine.py`: background, glass cards, word-synced captions, transitions) and the synthesized sound bed and final mix (`sound.py`).
-- `episodes/`: one folder per episode, e.g. `Caught 001 - Grandparent Scam Courier/` with `source/`, `script/`, `audio/`, `video/`.
+- `tools/voice/`: ElevenLabs voiceover generator with stutter, pace and whisper checks (`gen_vo.py`, `qc.py`), word alignment for captions (`align.py`).
+- `tools/video/`: the motion engine (`engine.py`: background, glass cards, word-synced captions, transitions), reusable scene parts (`kit.py`: chips, pins, maps, quote cards, stamps, stat rows, red-flag rows), and the synthesized sound bed and final mix (`sound.py`).
+- `episodes/`: one folder per episode (`Caught 001 - Grandparent Scam Courier/`, `Caught 002 - Gold Bar Courier/`) with `source/`, `script/`, `audio/`, `video/`. Start a new episode from the latest one's `video/render.py`.
 
 ## Make an episode
 

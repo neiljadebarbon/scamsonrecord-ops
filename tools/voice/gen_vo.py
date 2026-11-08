@@ -4,6 +4,7 @@ Per paragraph: up to 5 takes, keep the first that passes
   - no stutter at the start (repeated word or sound)
   - no doubled word the script doesn't have
   - pace 115 to 235 wpm (catches doubled phrases)
+  - no whispering (voiced share of the loud frames at least 0.58)
 Then joins paragraphs with the given pauses, slows 5% and normalizes to about -16 LUFS.
 Writes <out>.timeline.json with each paragraph's start time in the final file."""
 import json, os, re, subprocess, sys
@@ -40,9 +41,10 @@ def build(script, wd, out):
             wpm = words / d * 60
             st = qc.start_stutter(f)
             rw = qc.repeated_word(f, text)
-            ok = st is None and rw is None and 115 <= wpm <= 235
-            score = (st is None) * 4 + (rw is None) * 3 + (115 <= wpm <= 235) * 4
-            log.append(dict(n=n, dur=round(d, 2), wpm=round(wpm), stutter=st, repeat=rw))
+            wh = qc.whisper(f)
+            ok = st is None and rw is None and wh is None and 115 <= wpm <= 235
+            score = (st is None) * 4 + (rw is None) * 3 + (wh is None) * 5 + (115 <= wpm <= 235) * 4
+            log.append(dict(n=n, dur=round(d, 2), wpm=round(wpm), stutter=st, repeat=rw, whisper=wh))
             if best is None or score > best[0]:
                 best = (score, f, ok)
             if ok:

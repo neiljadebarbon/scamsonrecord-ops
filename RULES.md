@@ -42,13 +42,15 @@ Caught #1 is why this matters. The first script put "38-year-old" on events from
     - The fall: `[intrigued, building tension] `
     - Ending: `[firm, matter-of-fact] `
     - Red flags: `[warm, direct, protective] `
+- **No whispering (owner rule, Nov 8).** Never use hushed, whisper, low or ominous tags; Caught #1's "[hushed, ominous]" came out whispered. Tension tags get "full voice" added, e.g. `[building tension, full voice] `. `tools/voice/qc.py` measures the voiced share of every take and `gen_vo.py` retakes anything under 0.58.
+- Be a storyteller: tags like `[serious, gripping storyteller]`, `[curious, conversational storyteller]`, `[concerned, emphatic]`, `[dramatic, emphatic]`, `[firm, serious]`, `[warm, direct, protective]`. Pick each from what the beat is doing.
 - Dramatic pauses with "..." inside a line (before the sentence length, before the gag order's consequence, before "hang up"). Captions don't show them.
 - Pauses of 0.6 to 0.9 s between paragraphs (uneven), then a 5% slowdown (atempo 0.95). `tools/voice/gen_vo.py` does it and retakes any paragraph with a stutter, a doubled word or a pace outside 115 to 235 wpm.
 - Spell numbers the way they're said in `voice.json`: "eight hundred sixty-seven thousand dollars", "twenty twenty-one". Captions show digits.
 - Key: environment variable `XI` or `ELEVENLABS_API_KEY`, or a local `.env`. Never in a committed file. This repo is public.
 
 ## Video
-- 1080 x 1920, 30 fps, 61 to 75 seconds (TikTok only pays on videos over one minute).
+- 1080 x 1920, 30 fps, 61 to 100 seconds (TikTok only pays on videos over one minute). Caught episodes run about 90 seconds (owner, Nov 8).
 - Seven beats: hook, setup, trust, the ask, the fall, ending, red flags (see GAMEPLAN.md).
 - Content stays between y 230 and 1300. Captions sit at y 1440, max width 820. Keep the right edge clear below y 1000 (TikTok buttons).
 - Word-synced captions from `tools/voice/align.py`; the active word is yellow.
