@@ -1,0 +1,6 @@
+# Keep launcher line endings right on Windows checkouts (core.autocrlf would break py.sh in bash).
+py.sh text eol=lf
+py.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.ttf binary
+*.otf binary

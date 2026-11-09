@@ -1,0 +1,9 @@
+# AI editor Python packages. Targets Python 3.12 (3.10 to 3.13 work; 3.14+ has no PyAV wheels yet).
+# Install into the shared venv one level above the account folder:
+#   py -3.12 -m venv "D:\AI Editor\.venv"
+#   editor\py.cmd -m pip install -r editor\requirements.txt      (or: bash editor/py.sh -m pip install -r editor/requirements.txt)
+# Versions tested together on Nov 9, 2026 (ffmpeg 6.1 with libass; also tested with ffmpeg 9.0.2 full build).
+faster-whisper==1.2.1
+yt-dlp==2026.10.26
+numpy==2.5.3
+Pillow==12.3.0

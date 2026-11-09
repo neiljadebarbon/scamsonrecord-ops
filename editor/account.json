@@ -1,0 +1,180 @@
+{
+  "_about": "Account profile for the AI editor. One per account repo. Edit this file (not the tools) for a new account. Sizes are in pixels on the output frame. The editor-taste skill updates captions, hook, pacing and music after studying references; style.md explains the choices in words. Colours and fonts match tools/video/engine.py; the reel safe zones, the yellow active word and -14 LUFS come from RULES.md (Video).",
+  "account": {
+    "name": "Scams on Record",
+    "slug": "scamsonrecord",
+    "handles": {
+      "tiktok": "@TODO",
+      "instagram": "@TODO",
+      "youtube": "@TODO",
+      "facebook": "TODO"
+    },
+    "website": "",
+    "voice": "Faceless narrator: calm, plain-spoken, serious. Tells one real scam case per video from official records, never claims a job, a badge or a past (persona/NARRATOR.md).",
+    "rules_files": [
+      "CLAUDE.md",
+      "RULES.md",
+      "persona/NARRATOR.md",
+      "GAMEPLAN.md"
+    ]
+  },
+  "brand": {
+    "colors": {
+      "background_top": "#080A10",
+      "background_bottom": "#0C101E",
+      "white": "#F6F7F9",
+      "muted": "#949EB0",
+      "dim": "#5C6678",
+      "yellow": "#FFD60A",
+      "red": "#FF4545",
+      "green": "#30D158",
+      "paper": "#F3F0E9",
+      "ink": "#18181C",
+      "glow_red": "#D72630",
+      "glow_blue": "#3446D2",
+      "glow_orange": "#E68C1E"
+    },
+    "fonts": {
+      "captions": "Inter Black",
+      "headlines": "Inter Display Black",
+      "accent": "Inter Display Black",
+      "accent_style": "italic",
+      "quote_cards": "DejaVu Serif (engine only, not bundled in editor/fonts)"
+    }
+  },
+  "whisper": {
+    "model": "small.en",
+    "language": "en",
+    "vocabulary": "Scams on Record, Caught, Scam Alert, Red Flag Friday, scam, scammer, DOJ, FTC, FBI, IC3, U.S. Attorney, prosecutors, indictment, pleaded guilty, sentenced, restitution, wire fraud, gift cards, crypto, Bitcoin, courier, gold bars",
+    "write_fillers": true
+  },
+  "cut": {
+    "min_pause": 0.45,
+    "pad": 0.12,
+    "lead_in": 0.15,
+    "tail": 0.4,
+    "fillers": true,
+    "retakes": true,
+    "silence_db": "auto",
+    "force_keep": [],
+    "force_remove": [],
+    "verify": true
+  },
+  "captions": {
+    "enabled": true,
+    "font": "Inter Black",
+    "size": 85,
+    "uppercase": false,
+    "color": "#F6F7F9",
+    "highlight": "#FFD60A",
+    "outline_color": "#080A10",
+    "outline": 6,
+    "shadow": 3,
+    "shadow_color": "#000000",
+    "max_words_per_line": 4,
+    "max_lines": 2,
+    "max_page_seconds": 2.6,
+    "break_on_pause": 0.35
+  },
+  "hook": {
+    "enabled": true,
+    "text": "",
+    "seconds": 3.0,
+    "font": "Inter Display Black",
+    "accent_font": "Inter Display Black",
+    "size": 100,
+    "accent_scale": 1.15,
+    "color": "#F6F7F9",
+    "accent_color": "#FFD60A",
+    "outline_color": "#080A10",
+    "outline": 7,
+    "shadow": 4,
+    "y": 560
+  },
+  "fixes": {
+    "doj": "DOJ",
+    "ftc": "FTC",
+    "fbi": "FBI",
+    "ic3": "IC3"
+  },
+  "music": {
+    "track": "auto",
+    "under_speech_db": 20,
+    "gap_db": 12,
+    "attack": 0.08,
+    "release": 0.45,
+    "hold": 0.35,
+    "fade_in": 0.5,
+    "fade_out": 1.5
+  },
+  "voice": {
+    "highpass_hz": 80,
+    "compress": true,
+    "denoise": false
+  },
+  "loudness": {
+    "target_lufs": -14,
+    "true_peak": -1.5,
+    "lra": 11
+  },
+  "export": {
+    "preset": "reel",
+    "x264_preset": "medium",
+    "x264_preset_intermediate": "veryfast",
+    "fit": "crop"
+  },
+  "presets": {
+    "reel": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "crf": 18,
+      "audio_kbps": 192,
+      "safe": {
+        "graphics_top": 230,
+        "graphics_bottom": 1300,
+        "caption_y": 1440,
+        "caption_x": 510,
+        "max_width": 820,
+        "right_clear_x": 940,
+        "right_clear_below_y": 1000
+      }
+    },
+    "youtube": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "crf": 18,
+      "audio_kbps": 192,
+      "safe": {
+        "graphics_top": 120,
+        "graphics_bottom": 760,
+        "caption_y": 900,
+        "caption_x": 960,
+        "max_width": 1400,
+        "right_clear_x": 1920,
+        "right_clear_below_y": 1080
+      },
+      "caption_scale": 0.8,
+      "hook_y": 380
+    },
+    "square": {
+      "width": 1080,
+      "height": 1080,
+      "fps": 30,
+      "crf": 18,
+      "audio_kbps": 192,
+      "safe": {
+        "graphics_top": 90,
+        "graphics_bottom": 700,
+        "caption_y": 860,
+        "caption_x": 540,
+        "max_width": 900,
+        "right_clear_x": 1080,
+        "right_clear_below_y": 1080
+      },
+      "caption_scale": 0.85,
+      "hook_y": 300
+    }
+  }
+}

@@ -13,6 +13,11 @@ The playbook and production kit for **Scams on Record**, a faceless short-video 
 - `tools/voice/`: ElevenLabs voiceover generator with stutter, pace and whisper checks (`gen_vo.py`, `qc.py`), word alignment for captions (`align.py`).
 - `tools/video/`: the motion engine (`engine.py`: background, glass cards, word-synced captions, transitions), reusable scene parts (`kit.py`: chips, pins, maps, quote cards, stamps, stat rows, red-flag rows), and the synthesized sound bed and final mix (`sound.py`).
 - `episodes/`: one folder per episode (`Caught 001 - Grandparent Scam Courier/`, `Caught 002 - Gold Bar Courier/`) with `source/`, `script/`, `audio/`, `video/`. Start a new episode from the latest one's `video/render.py`.
+- `editor/`: the AI editor for recorded footage and voice takes (cuts, word-by-word captions with the active word in yellow, the sound bed, -14 LUFS), reference study and finishing checks. `editor/README.md` has the setup and the three prompts; `account.json` holds the channel's look, `style.md` its style in words. Run by the `editor-*` skills in `.claude/skills/`. The tools come from the owner's private AI editor template; to re-sync, copy its `editor/tools/` over this one.
+- `tools/yt-dlp/`: `fetch.py` downloads your own videos, transcripts, or reference copies for private study (`tools/yt-dlp/README.md`). Downloads stay out of git.
+- `.claude/settings.json`: keeps HyperFrames telemetry off for Claude sessions here.
+
+Footage folders (`raw/`, `references/`, `done/`, `work/`, `music/`) sit at the repo root on the owner's PC (`D:\AI Editor\Scams on Record`) and are git-ignored.
 
 ## Make an episode
 

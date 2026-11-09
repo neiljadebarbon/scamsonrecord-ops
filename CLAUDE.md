@@ -7,3 +7,4 @@ Read `GAMEPLAN.md`, `RULES.md` and `persona/NARRATOR.md` before writing a script
 - No AI melody (RULES.md list). No em dashes.
 - This repo is public. Never write an API key, a password or personal details about the channel owner into any file.
 - Instructions to the owner: bare numbered steps, one item per line, and name the exact file or service.
+- AI editor (captions, cuts and the sound bed for recorded footage or voice takes, reference study, finishing checks): read `editor/README.md`; the `editor-*` skills in `.claude/skills/` run it. The same rules apply to every draft.

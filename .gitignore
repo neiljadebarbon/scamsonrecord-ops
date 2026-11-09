@@ -7,3 +7,15 @@ __pycache__/
 *.trim.wav
 /tmp/
 stills/
+
+# AI editor (editor/README.md): footage and working files never go in git.
+# The account folder (D:\AI Editor\Scams on Record) is this repo's checkout, with media at its root.
+/raw/
+/references/
+/done/
+/work/
+/music/
+/media/
+/README.txt
+editor/models/
+*.part.mp4
